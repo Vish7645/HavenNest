@@ -1,4 +1,5 @@
 const express=require('express')
+const userRouter=require('./routes/user.route.js')
 const mongoose=require('mongoose')
 const dotenv = require("dotenv");
 
@@ -11,9 +12,11 @@ mongoose.connect(process.env.MONGO)
 .then(()=>{
     console.log('Database Connected')
 })
+
 .catch((err)=>{
     console.log(err)
 })
+app.use('/api/user',userRouter)
 
 
 
