@@ -6,8 +6,10 @@ export default defineConfig({
   server:{
     proxy:{
       '/api':{
-        target:'http://localhost:3000',
-        secure: false,
+        // target:'https://real-estate-back-end-three.vercel.app',
+        target: 'http://localhost:3000',
+        secure: true,
+        changeOrigin: true, // Add this to modify the origin of the host header
       },
     },
   },
