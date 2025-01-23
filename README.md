@@ -96,7 +96,7 @@ HavenNest Realty is a modern and intuitive platform designed to simplify real es
 
 ## Contributing
 
-We welcome contributions to improve Nexmita Realty!  
+We welcome contributions to improve HevenNest Realty!  
 Fork the repository and submit a pull request with your ideas.
 
 
